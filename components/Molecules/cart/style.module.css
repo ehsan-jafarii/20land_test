@@ -1,0 +1,16 @@
+.Cart {
+  @apply absolute top-20 right-5 border  w-40;
+  @apply rounded-xl bg-slate-200 p-3;
+}
+
+.title {
+  @apply font-bold text-lg;
+}
+
+.priceBox {
+  @apply flex flex-row justify-between mt-4;
+}
+
+.btn {
+  @apply bg-orange-500  py-2 rounded-md  w-full   mt-4;
+}

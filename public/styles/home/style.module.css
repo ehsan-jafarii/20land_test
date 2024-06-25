@@ -1,0 +1,42 @@
+.container {
+  @apply lg:px-10 mt-[4rem] lg:mt-[10rem] flex lg:flex-row flex-col justify-center;
+}
+
+.product {
+  @apply flex flex-col lg:flex-row items-center;
+}
+
+.comp {
+  @apply text-mainGray text-sm;
+}
+
+.name {
+  @apply font-bold text-2xl;
+}
+
+.description {
+  @apply text-sm text-mainGray mt-5;
+}
+.priceBox {
+  @apply mt-5;
+}
+.newPrice {
+  @apply text-2xl;
+}
+
+.discound {
+  @apply bg-slate-900 text-white flex items-center justify-center p-2 rounded-lg;
+  @apply ml-4;
+}
+
+.price {
+  @apply text-gray-400 line-through;
+}
+
+.btn {
+  @apply bg-orange-500 px-4 py-2 rounded-md lg:ml-5 w-full lg:w-auto lg:mt-0 mt-4;
+}
+
+.slide {
+  @apply w-[20rem] sm:!h-[25rem] !h-[23.75rem] lg:!h-[28.5rem] lg:rounded-3xl;
+}

@@ -1,0 +1,11 @@
+.counter {
+  @apply w-[1rem] text-black font-bold text-lg my-auto  text-center;
+}
+
+.increase {
+  @apply w-8 pt-0.5 rounded-lg text-orange-500 text-xl;
+}
+
+.decrease {
+  @apply w-8 pt-0.5 rounded-lg text-orange-500 text-xl;
+}

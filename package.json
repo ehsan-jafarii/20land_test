@@ -6,12 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "svgr": "npx @svgr/cli --out-dir public/svgs/ public/icons --ignore-existing"
   },
   "dependencies": {
+    "@svgr/cli": "^8.1.0",
+    "@svgr/webpack": "^8.1.0",
+    "clsx": "^2.1.1",
+    "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.4"
+    "swiper": "^11.1.4"
   },
   "devDependencies": {
     "postcss": "^8",

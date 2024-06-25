@@ -1,0 +1,22 @@
+.headerContainer {
+  @apply w-full border-b py-4 lg:py-8 px-4 flex flex-row justify-between items-center;
+  @apply fixed top-0 left-0 z-50 bg-white;
+}
+.first {
+  @apply flex flex-row items-center;
+}
+.title {
+  @apply text-mainGray text-lg  font-medium;
+  @apply hover:text-orange-500;
+}
+.logoBox {
+  @apply relative w-[8rem] h-[2rem] mr-4;
+}
+
+.pages {
+  @apply grid grid-flow-col gap-2;
+}
+
+.lasted {
+  @apply grid grid-flow-col gap-4;
+}
